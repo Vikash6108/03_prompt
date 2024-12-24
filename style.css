@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background-image: url(./haiti-79641_640.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nav {
+  width: 100%;
+  height: 12%;
+  background-color: rgb(255, 250, 250);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+}
+.left {
+  display: flex;
+}
+.left h2 {
+  padding: 25px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+color: red;
+  font-size: x-large;
+}
+
+.left img {
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+  /* background-color: #fff; */
+}
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  gap: 35px;
+}
+.middle a {
+  text-decoration: none;
+  color: black;
+}
+.middle a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+.right {
+  width: 170px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* background-color: rgb(176, 134, 134); */
+}
+.right a {
+  width: 40px;
+  height: 40px;
+}
+.right button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 110px;
+  padding: 10px;
+  height: 40px;
+  color: white;
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+  border: 2px solid red;
+}
+.right button:hover{
+  background-color: #fff;
+  color: rgb(255, 0, 0);
+}
+.page {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: gray; */
+  /* justify-content: center; */
+  
+}
+.page .icon_arrow{
+  width: 200px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  justify-content: space-between;
+  /* background-color: #fff; */
+}
+.box {
+ display: flex;
+ flex-direction: column;
+ /* align-items: center; */
+  
+  width: 50%;
+  height: 50%;
+  /* background-color: #ae7b7b; */
+  /* border:5px solid black ; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content1{
+  width: 30%;
+  height: 7%;
+  /* background-color: #fff; */
+  color: white;
+  font-size: small;
+  font-weight: 200;
+}
+.content2{
+  width:80%;
+  height: 40%;
+  /* background-color: #000000; */
+  color: rgb(255, 239, 239)  
+}
+.content3 button {
+  width: 130px;
+  height: 50px;
+  font-size: 400;
+  background-color: red;
+  border-radius: 7px;
+  border:1px;
+  color: white;
+}
+.content3 button:hover{
+  background-color: #fff;
+  color: rgb(255, 0, 0);
+  border-radius: 7px;
+  border:2px solid red;
+}
+
+
+#icon_arrow{
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  /* justify-content: flex-end; */
+  width: 200px;
+  height: 300px;
+  color: white;
+  /* background-color: rgb(238, 90, 90); */
+  
+}
+.first{
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.first:hover{
+  background-color: red;
+  border-radius: 50%; 
+  border: 2px solid red;
+  color: black;
+}
+.second{
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center;
+   justify-content: center;
+}
+.second:hover{
+  background-color: red;
+  border-radius: 50%; 
+  border: 2px solid red;
+  color: black;
+}
+/* .final_div{
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+} */
+.contaner4{
+  width: 250px;
+  height: 100px;
+  background-color: gray;
+
+}
+
+.last_div{
+  width: 100%;
+  height: 8%;
+  /* height: 300px; */
+  /* background-color: rgb(7, 5, 5);   */
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.contaner{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px 20px;
+  background-color: rgb(255, 255, 255);
+  
+}
